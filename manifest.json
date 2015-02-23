@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Diarios anónimos",
+  "description": "Evita tener que registrarte para leer los diarios Clarín y La Nación.",
+  "version": "0.0.1",
+  "author": "Joaquín Vicente",
+  "homepage_url": "https://github.com/wacko/diarios-anonimos",
+
+  "icons": {
+    "128": "images/icon-128x128.png",
+    "48": "images/icon-48x48.png"
+  },
+
+  "content_scripts": [{
+    "js": ["clarin.js"],
+    "matches": ["*://*.clarin.com/*"],
+    "run_at": "document_end"
+  }, {
+    "js": ["lanacion.js"],
+    "matches": ["*://*.lanacion.com.ar/*"],
+    "run_at": "document_end"
+  }]
+}
