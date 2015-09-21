@@ -1,4 +1,3 @@
-if (document.querySelector('.modal-scrollable')) {
-  document.querySelector('.modal-scrollable').remove()
+if (document.querySelector('.lnmodal.login')) {
+  document.querySelector('.lnmodal.login').remove()
 };
-document.getElementsByTagName('body')[0].classList.remove("modal-open")
