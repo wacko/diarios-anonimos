@@ -1,0 +1,6 @@
+html {
+	overflow-y: auto !important;
+}
+.modal-pase {
+	display: none;
+}
