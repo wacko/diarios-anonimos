@@ -19,10 +19,6 @@
     "matches": ["*://*.clarin.com/*"],
     "run_at": "document_end"
   }, {
-    "css": ["clarin.css"],
-    "matches": ["*://*.clarin.com/*"],
-    "run_at": "document_end"
-  }, {
     "js": ["lanacion.js"],
     "matches": ["*://*.lanacion.com.ar/*"],
     "run_at": "document_end"
