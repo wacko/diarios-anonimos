@@ -7,4 +7,8 @@ var interval = setInterval(function() {
     }
     interval = null
   }
+  if (document.querySelector('.lock')) {
+    document.querySelector('.lock').style.opacity = '1'
+    document.querySelector('.lock').classList.remove('lock')
+  };
 }, 100)

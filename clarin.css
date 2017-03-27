@@ -1,3 +1,6 @@
 .modal-pase {
-	display: none;
+  display: none;
+}
+.lock {
+  opacity: 1 !important;
 }
