@@ -26,5 +26,13 @@
     "js": ["lanacion.js"],
     "matches": ["*://*.lanacion.com.ar/*"],
     "run_at": "document_end"
+  }, {
+    "js": ["ole.js"],
+    "matches": ["*://*.ole.com.ar/*"],
+    "run_at": "document_end"
+  }, {
+    "css": ["ole.css"],
+    "matches": ["*://*.ole.com.ar/*"],
+    "run_at": "document_end"
   }]
 }
