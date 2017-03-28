@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
 
-  "name": "Diarios anónimos: Clarín y La Nación",
+  "name": "Diarios anónimos: Clarín, La Nación y Olé",
   "short_name": "diarios-anonimos",
 
-  "description": "Evita tener que registrarte para leer los diarios Clarín y La Nación.",
-  "version": "0.0.7",
+  "description": "Evita tener que registrarte para leer los diarios Clarín, La Nación y Olé.",
+  "version": "0.0.8",
   "author": "Joaquín Vicente",
   "homepage_url": "https://github.com/wacko/diarios-anonimos",
 
