@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
 
-  "name": "Diarios anónimos: Clarín, La Nación y Olé",
+  "name": "Diarios anónimos: Clarín, Cronista, La Nación y Olé",
   "short_name": "diarios-anonimos",
 
-  "description": "Evita tener que registrarte para leer los diarios Clarín, La Nación y Olé.",
-  "version": "0.0.8",
+  "description": "Evita tener que registrarte para leer los diarios Clarín, Cronista, La Nación y Olé.",
+  "version": "0.0.9",
   "author": "Joaquín Vicente",
   "homepage_url": "https://github.com/wacko/diarios-anonimos",
 
@@ -25,6 +25,10 @@
   }, {
     "js": ["lanacion.js"],
     "matches": ["*://*.lanacion.com.ar/*"],
+    "run_at": "document_end"
+  }, {
+    "js": ["cronista.js"],
+    "matches": ["*://*.cronista.com/*"],
     "run_at": "document_end"
   }, {
     "js": ["ole.js"],
