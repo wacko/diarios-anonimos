@@ -38,5 +38,9 @@
     "css": ["ole.css"],
     "matches": ["*://*.ole.com.ar/*"],
     "run_at": "document_end"
+  }, {
+    "js": ["eldia.js"],
+    "matches": ["*://*.eldia.com/*"],
+    "run_at": "document_end"
   }]
 }
