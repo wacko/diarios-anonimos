@@ -6,4 +6,8 @@ var interval = setInterval(function () {
     }
     interval = null
   }
+  var modal = document.querySelector('#paseModalContainer');
+  if (modal) {
+    modal.remove();
+  }
 }, 500)
