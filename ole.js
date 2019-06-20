@@ -8,6 +8,6 @@ var interval = setInterval(function () {
   }
   var modal = document.querySelector('#paseModalContainer');
   if (modal) {
-    document.querySelector('#paseModalContainer').remove();
+    modal.remove();
   }
 }, 500)
