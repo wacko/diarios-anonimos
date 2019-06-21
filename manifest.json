@@ -5,7 +5,7 @@
   "short_name": "diarios-anonimos",
 
   "description": "Evita tener que registrarte para leer los diarios Clarín, Cronista, La Nación y Olé.",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Joaquín Vicente",
   "homepage_url": "https://github.com/wacko/diarios-anonimos",
 
@@ -16,14 +16,12 @@
 
   "content_scripts": [{
     "js": ["clarin.js"],
-    "matches": ["*://*.clarin.com/*"],
-    "run_at": "document_end"
-  }, {
     "css": ["clarin.css"],
     "matches": ["*://*.clarin.com/*"],
     "run_at": "document_end"
   }, {
     "js": ["lanacion.js"],
+    "css": ["lanacion.css"],
     "matches": ["*://*.lanacion.com.ar/*"],
     "run_at": "document_end"
   }, {
@@ -32,9 +30,6 @@
     "run_at": "document_end"
   }, {
     "js": ["ole.js"],
-    "matches": ["*://*.ole.com.ar/*"],
-    "run_at": "document_end"
-  }, {
     "css": ["ole.css"],
     "matches": ["*://*.ole.com.ar/*"],
     "run_at": "document_end"
